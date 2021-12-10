@@ -11,7 +11,7 @@ A list of knowledge areas per AWS service that should be remembered for the AWS 
 * Have an understanding of which EC2 pricing options to use and when
 * Have an understanding of the different EBS volume types and when to use cases
 * Know the differences between the ELB types
-* Know that you need x-forwarded-for for IP tracking and Sticky Sessions for session management
+* Know that you need `x-forwarded-for` for IP tracking and Sticky Sessions for session management
 * Never store IAM programmatic keys on an EC2 instances or within code
 
 # RDS
@@ -27,7 +27,7 @@ A list of knowledge areas per AWS service that should be remembered for the AWS 
 # S3
 * Understand the S3 storage classes and tradeoffs
 * Understand S3 encryption options and how these are implemented
-* Be confident about how to use the x-amz-server-side-encryption parameter with bucket policies and request headers
+* Be confident about how to use the `x-amz-server-side-encryption` parameter with bucket policies and request headers
 * Understand why CORS is important in S3
 
 # CloudFront
@@ -87,7 +87,7 @@ A list of knowledge areas per AWS service that should be remembered for the AWS 
 * Know the basics of ECR and how to build, tag and push docker images to ECR
 * Know how to deploy Docker using Elastic Beanstalk
 
-* # CloudFormation
+# CloudFormation
 * Be comfortable with CloudFormation, the template structure and Nested Stacks
 * Understand how CloudFormation and SAM work together
 
